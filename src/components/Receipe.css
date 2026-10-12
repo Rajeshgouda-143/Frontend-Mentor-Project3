@@ -1,0 +1,194 @@
+.Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background: hsl(0, 0%, 100%);
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+/* hr{
+    width: 400px;
+    background: rgb(251, 248, 248);
+    height: 1px;
+    margin-top: 20px; */
+
+/* } */
+
+.receipe img{
+   width: 400px;
+   border-radius: 10px;
+}
+
+.caption{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caption h1{
+    margin-top: 20px;
+    font-size: 25px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+.caption p{
+    font-size: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.pre-time{
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background: hsl(330, 100%, 98%);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.pre-time h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(332, 51%, 32%);
+}
+
+.pre-time ul{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 17px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.pre-time ul li{
+    font-size: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.pre-time ul li span{
+    font-size: 13px;
+    color: hsl(0, 2%, 13%);
+    font-weight: 600;
+}
+
+.Ingredient{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.Ingredient h3{
+    margin-left: -30px;
+    color: hsl(332, 51%, 32%);  
+}
+
+.Ingredient ul{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: -15px;
+}
+
+.Ingredient ul li{
+    font-size: 12px;
+    /* margin-left: 17px; */
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    gap: 5px;
+}
+
+.instruction{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    gap: 10px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.instruction h3{
+    /* margin-left: -28px; */
+    color: hsl(332, 51%, 32%);  
+}
+
+.instruction ol{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 15px;
+}
+
+.instruction ol li{
+    font-size: 12px;
+    /* margin-left: 17px; */
+    font-weight: 400;
+    color:hsl(14, 45%, 36%);
+    gap: 5px;
+}
+
+.instruction ol li span{
+    font-size: 13px;
+    font-weight:600;
+    color: hsl(0, 0%, 0%);
+}
+
+.Nutrition{
+    display: flex;
+    /* align-items: start; */
+    flex-direction: column;
+    gap: 10px;
+    /* border-bottom: 1px solid #ddd; */
+    margin-top: 20px;
+
+}
+
+.Nutrition h3{
+    color: hsl(332, 51%, 32%); 
+}
+
+.Nutrition p{
+    color: hsl(14, 45%, 36%);
+    font-size: 10px;
+}
+
+.protine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 70ox; */
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 15px 0;
+
+}
+
+.protine span{
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+.protine p{
+    font-size: 12px;
+}
+
+.protine span{
+    color: #b22222;
+    font-weight: bold;
+}
